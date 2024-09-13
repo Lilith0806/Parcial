@@ -1,0 +1,46 @@
+* {
+    margin:10;
+    padding: 10;
+    box-sizing: border-box;
+    background-color: rgb(58, 31, 40); /*Para toda la base*/
+    
+    }
+
+    h1 {
+        text-align: center;
+        font-family:Comic Sans MS;
+        font-size: 370%;
+        color:rgb(255, 255, 255);
+    }
+    
+    main{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 18px;
+    text-align: center;
+    background-color:rgb(230, 167, 197);
+    border-radius: 15px;
+    
+    }
+    
+    
+    .image-container {
+    display: flex;
+    
+    }
+    
+     .image-container img {
+        width: 100%;
+        border-radius: 20px;
+     }
+    
+     article {
+        padding: 12px;
+        box-shadow: 6px 6px 5px rgb(116, 82, 98);
+        border-radius: 20px;
+        font-family: Garamond;
+        font-size: 100%;
+        color: rgb(255, 255, 255);
+     }
+     
+   
